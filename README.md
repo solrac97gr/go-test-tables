@@ -13,7 +13,7 @@ You can see in the file generate-mocks.sh how to generate the mocks.
 
 ## Test Tables
 
-For the test tables I use a map[string]struct{} with the key being the name of the test and the value being a struct{}.
+For the test tables I use a `map[string]struct{}` with the key being the name of the test and the value being a `struct{}`.
 
 Inside of the struct we add all the external information we will need like parameters.
 
