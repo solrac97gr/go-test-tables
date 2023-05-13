@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestCreateUser(t *testing.T) {
+func TestApplication_CreateUser(t *testing.T) {
 	cases := map[string]struct {
 		email       string
 		password    string
